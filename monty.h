@@ -6,8 +6,6 @@
 #include <string.h>
 #include <ctype.h>
 #include <unistd.h>
-#include <sys/types.h>
-#include <fcntl.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -41,7 +39,16 @@ typedef struct instruction_s
 
 void pushNewNode(stack_l **stack, unsigned int line_number);
 void printerythang(stack_l **stack, unsigned int line_number);
+void iAmTheTopG(stack_l **stack, unsigned int line_number);
+void getRecked(stack_l **stack, unsigned int line_number);
+void switcheroo(stack_l **stack, unsigned int line_number);
+void weTheTopTwo(stack_l **stack, unsigned int line_number);
+void iAmaUselessPieceOfS___(stack_l **stack, unsigned int line_number);
+void iWantMore(stack_l **stack, unsigned int line_number);
+void chopItUp(stack_l **stack, unsigned int line_number);
 void freestack(stack_l *head);
+void processFile(stack_l **stack, const char *fn, instruction_t instructions[]);
+void eI(stack_l **stack, FILE *montyFile, instruction_t instructions[]);
 
 #endif /* STQUE_H */
 
