@@ -41,6 +41,7 @@ typedef struct instruction_s
 
 void pushNewNode(stack_l **stack, unsigned int line_number);
 void printerythang(stack_l **stack, unsigned int line_number);
+void freestack(stack_l *head);
 
 #endif /* STQUE_H */
 

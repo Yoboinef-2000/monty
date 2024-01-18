@@ -113,7 +113,8 @@ int main(int ac, char *av[])
         }
     }
     fclose(montyFile);
-    return 0;
+    freestack(stack);
+    return (0);
 }
 
 

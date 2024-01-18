@@ -66,3 +66,24 @@ void printerythang(stack_l **stack, unsigned int line_number)
     }
 }
 
+/**
+ * stack_l - this function frees a doubly linked list
+ *
+ * @head: this is a pointer to the doubly linked list that is
+ * going to be freed
+ *
+ * Description: refer to the first commented out line
+ */
+
+void freestack(stack_l *head)
+{
+	stack_l *currentnode;
+
+	while (head != NULL)
+	{
+		currentnode = head;
+		head = head->next;
+		free(currentnode);
+	}
+}
+
