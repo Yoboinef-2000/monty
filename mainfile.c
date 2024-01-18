@@ -1,4 +1,4 @@
-#include "stque.h"
+#include "monty.h"
 
 /*
  * main - this is the main fucntion

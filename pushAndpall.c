@@ -1,4 +1,4 @@
-#include "stque.h"
+#include "monty.h"
 
 /**
  * pushNewNode - this function pushes a new node to the stack stack_s
