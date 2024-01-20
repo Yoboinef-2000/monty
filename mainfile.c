@@ -27,6 +27,7 @@ int main(int ac, char *av[])
 		{"nop", iAmaUselessPieceOfS___},
 		{"mul", iWantMore},
 		{"div", chopItUp},
+		{"mod", weirdDivision},
 		{NULL, NULL}};
 
 	stack = NULL;

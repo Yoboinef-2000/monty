@@ -47,6 +47,7 @@ void cutIt(stack_l **stack, unsigned int line_number);
 void iAmaUselessPieceOfS___(stack_l **stack, unsigned int line_number);
 void iWantMore(stack_l **stack, unsigned int line_number);
 void chopItUp(stack_l **stack, unsigned int line_number);
+void weirdDivision(stack_l **stack, unsigned int line_number);
 void freestack(stack_l *head);
 void processFile(stack_l **stack, const char *fn, instruction_t instructions[]);
 void eI(stack_l **stack, FILE *montyFile, instruction_t instructions[]);
