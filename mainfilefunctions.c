@@ -49,6 +49,10 @@ void eI(stack_l **stack, FILE *montyFile, instruction_t instructions[])
 	while (fgets(aLineInMonty, sizeof(aLineInMonty), montyFile) != NULL)
 	{
 		line_number++;
+		if (aLineInTheMontyFile[0] == '#')
+		{
+			continue;
+		}
 		opcode = strtok(aLineInMonty, " \n");
 		if (opcode != NULL)
 		{
