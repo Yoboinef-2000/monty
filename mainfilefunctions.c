@@ -62,6 +62,11 @@ void eI(stack_l **stack, FILE *montyFile, instruction_t instructions[])
 				}
 				i++;
 			}
+			if (instructions[i].opcode == NULL)
+			{
+				fprintf(stderr, "L%d: unknown instruction %s\n", line_number, opcode);
+				exit(EXIT_FAILURE);
+			}
 		}
 	}
 }
