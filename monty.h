@@ -43,6 +43,7 @@ void iAmTheTopG(stack_l **stack, unsigned int line_number);
 void getRecked(stack_l **stack, unsigned int line_number);
 void switcheroo(stack_l **stack, unsigned int line_number);
 void weTheTopTwo(stack_l **stack, unsigned int line_number);
+void cutIt(stack_l **stack, unsigned int line_number);
 void iAmaUselessPieceOfS___(stack_l **stack, unsigned int line_number);
 void iWantMore(stack_l **stack, unsigned int line_number);
 void chopItUp(stack_l **stack, unsigned int line_number);

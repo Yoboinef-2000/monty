@@ -23,6 +23,7 @@ int main(int ac, char *av[])
 		{"pint", iAmTheTopG},
 		{"swap", switcheroo},
 		{"add", weTheTopTwo},
+		{"sub", cutIt},
 		{"nop", iAmaUselessPieceOfS___},
 		{"mul", iWantMore},
 		{"div", chopItUp},
