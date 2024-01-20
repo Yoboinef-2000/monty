@@ -18,7 +18,7 @@ void pushNewNode(stack_l **stack, unsigned int line_number)
 	stack_l *newnode;
 
 	ar = strtok(NULL, " \n");
-	if ((ar == NULL || !isdigit(*ar)) && ((*ar != '-' && !isdigit(*(ar + 1)))))
+	if ((ar == NULL) || (!isdigit(*ar) && (*ar != '-')) || ((*ar == '-') && !isdigit(*(ar + 1))))
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
 		exit(EXIT_FAILURE);
