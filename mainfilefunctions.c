@@ -54,6 +54,10 @@ void eI(stack_l **stack, FILE *montyFile, instruction_t instructions[])
 			continue;
 		}
 		opcode = strtok(aLineInMonty, " \n");
+		if (opcode[0] == '#')
+		{
+			continue;
+		}
 		if (opcode != NULL)
 		{
 			i = 0;
