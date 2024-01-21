@@ -1,0 +1,1 @@
+This repo will hold brainfuck scripts. I have no idea how they work. I just got this code off ChatGPT so please don't come ask me what each "fucking" command represents. Pun was fully intended. Enjoy!
